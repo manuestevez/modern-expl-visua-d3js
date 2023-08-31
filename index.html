@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Se recupera de la web de D3 un script con utilidades -->
+    <script src='https://d3js.org/d3.v5.min.js'></script>
+
+    <!-- Añadimos librería adicional para el slider -->
+    <script src="https://unpkg.com/d3-simple-slider"></script>
+
+    <!-- Se crea un fichero de estilos para dar forma a ciertas partes de la web -->
+    <link rel="stylesheet" href="style.css">
+    <title>Opción 1</title>
+</head>
+<body>
+
+    <!-- Se carga el main.js que en este caso ya está programado y hay que usarlo, y se ha copiado del enunciado al directorio raíz del index.html y style.css-->
+    <script src="main.js"></script>
+
+    <div class="enunciado">
+
+        <h1>Opci&oacute;n 1:</h1>
+
+        <h2>Enunciado:</h2>
+
+        <p class="enunciado">
+            Representar la gráfica de barras (verticales u horizontales) <br>
+            y conectarlas al slider para que cada año represente la distribución de <br>
+            mundiales &#127942; de cada selección. Hay que tratar los datos. 
+        </p>
+
+    </div>
+
+    <!-- Se crea una sección para cargar la gráfica que indica el enunciado   -->
+    <div id ="chart"></div>
+
+    <!-- Se crea la parte visual del slider -->
+    <p id="value-time"></p>
+    <div id="slider-time"></div>
+    
+</body>
+</html>
