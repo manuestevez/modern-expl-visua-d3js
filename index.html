@@ -15,29 +15,30 @@
 </head>
 <body>
 
-    <!-- Se carga el main.js que en este caso ya está programado y hay que usarlo, y se ha copiado del enunciado al directorio raíz del index.html y style.css-->
-    <script src="main.js"></script>
+    
+    <div class="contenedor">
+        <div class="enunciado">
 
-    <div class="enunciado">
+            <h1>Opci&oacute;n 1:</h1>
 
-        <h1>Opci&oacute;n 1:</h1>
+            <h2>Enunciado:</h2>
 
-        <h2>Enunciado:</h2>
+            <p class="enunciado">
+                Representar la gráfica de barras (verticales u horizontales)
+                y conectarlas al slider para que cada año represente la distribución de
+                mundiales &#127942; de cada selección. Hay que tratar los datos. 
+            </p>
 
-        <p class="enunciado">
-            Representar la gráfica de barras (verticales u horizontales) <br>
-            y conectarlas al slider para que cada año represente la distribución de <br>
-            mundiales &#127942; de cada selección. Hay que tratar los datos. 
-        </p>
+        </div>
+        <!-- Se crea la parte visual del slider -->
+        <p id="value-time"></p>
+        <div id="slider-time"></div>
+        <!-- Se crea una sección para cargar la gráfica que indica el enunciado   -->
+        <div id ="chart"></div>
+
+        <!-- Se carga el main.js que en este caso ya está programado y hay que usarlo, y se ha copiado del enunciado al directorio raíz del index.html y style.css-->
+        <script src="main.js"></script>
 
     </div>
-
-    <!-- Se crea una sección para cargar la gráfica que indica el enunciado   -->
-    <div id ="chart"></div>
-
-    <!-- Se crea la parte visual del slider -->
-    <p id="value-time"></p>
-    <div id="slider-time"></div>
-    
 </body>
 </html>

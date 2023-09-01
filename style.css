@@ -3,28 +3,42 @@
     padding: 10;
 }
 
+.contenedor {
+    margin: 0 auto;
+}
+
 h1, h2 {
     color:blue;
 }
 
 .enunciado {
-    background-color: beige;
-
+    width: 800px;
 }
 
 p.enunciado {
-    margin: 20px 0px 50px 20px;
+    margin: 20px 20px 50px 20px;
+    padding: 10px 0 10px;
     color:black;
     font-size: 20px;
     text-align: justify;
-}
+    
+}s
 
 #chart,#slider-time,#value-time {
-    background-color: rgb(197, 131, 31);
-    color: black;
+
     font-size: large;
 }
 
 text{
     fill: black;
+}
+
+.championBar {
+    fill: yellow;
+    stroke: blue;
+}
+
+.championBar:hover {
+    fill:gold;
+    stroke: black;
 }
